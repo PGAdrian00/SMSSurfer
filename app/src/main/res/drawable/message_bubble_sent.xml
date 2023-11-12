@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- message_bubble_sent.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background color for the message bubble -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="8dp" /> <!-- Customize corner radius as needed -->
+            <solid android:color="#00796B" /> <!-- Customize the background color (#00796B is a teal color) -->
+        </shape>
+    </item>
+    <!-- Border for the message bubble (optional) -->
+    <item android:right="2dp" android:left="2dp" android:top="2dp" android:bottom="2dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="8dp" />
+            <stroke android:width="2dp" android:color="#004D40" /> <!-- Customize border color (#004D40 is a darker teal) -->
+        </shape>
+    </item>
+</layer-list>

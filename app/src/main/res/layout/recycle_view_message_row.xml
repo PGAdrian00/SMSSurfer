@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/phoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sender/Recipient's Number"
+        android:layout_margin="8dp"
+        android:textColor="#000000" />
+
+    <View
+        android:id="@+id/messageBubble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/message_bubble_with_border"/>
+
+    <!-- Message Content -->
+    <TextView
+        android:id="@+id/messageText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is a sample message text"
+        android:layout_margin="8dp"
+        android:textColor="#000000" />
+
+    <!-- Time Stamp -->
+    <TextView
+        android:id="@+id/timeStamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="8dp"
+        android:text="12:34 PM"
+        android:textSize="12sp"
+        android:textColor="@color/black" />
+    <TextView
+        android:id="@+id/messageType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Received"
+        android:layout_margin="8dp"
+        android:textColor="#000000" />
+</LinearLayout>
